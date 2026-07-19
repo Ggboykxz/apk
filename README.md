@@ -30,6 +30,7 @@ Reconnaissance complète de `*.vercel.com` effectuée en 10 phases.
 | Finding | Sévérité | Fichier |
 |---|---|---|
 | CORS `*` permissif sur TOUS endpoints /v1/* | Medium | `rapport-cors-deep.md` |
+| Microfrontend config (routes complètes) | Medium | `rapport-microfrontends.md` |
 | /v1/certs → 500 systématique (sans auth) | Medium | `rapport-v1-certs-deep.md` |
 | /api/contentful-webhook-docs-tags → 500 | Medium | `rapport-contentful-webhook-500.md` |
 | 57 endpoints API découverts via JS | Info | `rapport-endpoints-caches.md` |
